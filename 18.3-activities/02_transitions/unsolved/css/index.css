@@ -19,11 +19,42 @@
   width: 150px;
   text-align: center;
   height: 50px;
+  transition: 0.3 ease;
   /* Add the css property transition here! */
 
 }
 /* active state */
 .hoverMe:hover {
   /* Add your hover state css here. */
+background-color: lightblue;
+transform: scale(.5) rotate(20deg);
+box-shadow: 10px 10px grey;
+color: purple;
+font-size:20pt;
+
+
+}
+
+.card{
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 80%;
+  text-align: center;
+  height: 300px;
+  border: 1px solid #d3d3d3;
+}
+
+.card p {
+  font-size: 40px;
+}
+
+.card:hover{
+  background-color: #f1f1f1;
+  border-color: lightblue;
+  box-shadow: 5px 5px #f1f1f1;
+  border-radius: 5px;
+  cursor:pointer;
 
 }
