@@ -1,0 +1,41 @@
+body {
+    font-family: 'Open Sans', sans-serif;
+}
+
+#hero {
+    background-image: url("../images/hero.png");
+    background-repeat: no-repeat;
+    height: 80vh;
+    background-size: cover;
+    background-position: center;
+}
+
+
+.nav-link{
+    color: white !important;
+}
+
+.nav-item.active {
+    text-decoration: underline;
+}
+
+.jumbotron {
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    height: 60%;
+    flex-direction: column;
+    color: white;
+
+}
+
+.jumbotron.display-4, .jumbotron.lead {
+
+
+}
+
+
+.jumbotron span {
+    color: white;
+    font-weight: 800;
+}
