@@ -29,13 +29,33 @@ body {
 
 }
 
-.jumbotron.display-4, .jumbotron.lead {
-
-
-}
-
 
 .jumbotron span {
     color: white;
     font-weight: 800;
+}
+
+.sectionHeading{
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.sectionHeading span {
+    color: #ff8300;
+    display: block;
+    font-weight: 50px;
+    font-size:22px;
+}
+
+.adventurecard .card{
+    background-image: url("../images/reservation-card.png");
+    height: 500px;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+}
+
+.btn-primary {
+    
 }
